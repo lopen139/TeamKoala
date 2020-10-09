@@ -1,0 +1,7 @@
+{    
+    "model": {
+      "src": "models/heden/DomLos.POD",
+      "title": "Domtoren",
+      "image" : "models/heden.jpg"
+    }
+}

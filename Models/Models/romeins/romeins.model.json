@@ -1,0 +1,7 @@
+{    
+    "model": {
+      "src": "models/romeins/principia.pod",
+      "title": "Romeins principia, ca. 210",
+      "image" : "models/romeins.jpg"
+    }
+}
