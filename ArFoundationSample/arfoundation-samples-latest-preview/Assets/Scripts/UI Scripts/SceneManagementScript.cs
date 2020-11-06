@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneManagementScript : MonoBehaviour
 {
@@ -12,16 +13,16 @@ public class SceneManagementScript : MonoBehaviour
 
     public void PreviousStory()
     {
-        var scene = SceneManager.GetActiveScene().name;
-        if(string.Equals(scene, "Story 1", System.StringComparison.InvariantCultureIgnoreCase))
+        var scene = SceneManager.GetActiveScene();
+        if(string.Equals(scene.name, "Story 1", System.StringComparison.InvariantCultureIgnoreCase))
         {
 
         }
-        if (string.Equals(scene, "Story 2", System.StringComparison.InvariantCultureIgnoreCase))
+        if (string.Equals(scene.name, "Story 2", System.StringComparison.InvariantCultureIgnoreCase))
         {
             SceneManager.LoadScene("Story 1");
         }
-        if (string.Equals(scene, "Story 3", System.StringComparison.InvariantCultureIgnoreCase))
+        if (string.Equals(scene.name, "Story 3", System.StringComparison.InvariantCultureIgnoreCase))
         {
             SceneManager.LoadScene("Story 2");
         }
@@ -30,15 +31,15 @@ public class SceneManagementScript : MonoBehaviour
     public void NextStory()
     {
         var scene = SceneManager.GetActiveScene();
-        if (string.Equals(scene, "Story 1", System.StringComparison.InvariantCultureIgnoreCase))
+        if (string.Equals(scene.name, "Story 1", System.StringComparison.InvariantCultureIgnoreCase))
         {
             SceneManager.LoadScene("Story 2");
         }
-        if (string.Equals(scene, "Story 2", System.StringComparison.InvariantCultureIgnoreCase))
+        if (string.Equals(scene.name, "Story 2", System.StringComparison.InvariantCultureIgnoreCase))
         {
             SceneManager.LoadScene("Story 3");
         }
-        if (string.Equals(scene, "Story 3", System.StringComparison.InvariantCultureIgnoreCase))
+        if (string.Equals(scene.name, "Story 3", System.StringComparison.InvariantCultureIgnoreCase))
         {
             
         }
