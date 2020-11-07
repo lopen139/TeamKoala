@@ -601,7 +601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -13.7, y: -2642}
+  m_AnchoredPosition: {x: -13.7, y: -3712}
   m_SizeDelta: {x: 625.2063, y: 946.5303}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &222112714
@@ -674,7 +674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -13.7, y: -5885}
+  m_AnchoredPosition: {x: -13.7, y: -6955}
   m_SizeDelta: {x: 961.21436, y: 600.74976}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &359713341
@@ -1051,7 +1051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000061035, y: -7769}
+  m_AnchoredPosition: {x: 0.000061035, y: -8839}
   m_SizeDelta: {x: 829.3281, y: 829.3281}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &794631578
@@ -1124,7 +1124,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -13.7, y: -8789}
+  m_AnchoredPosition: {x: -13.7, y: -9859}
   m_SizeDelta: {x: 891.2938, y: 445.6469}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &850770129
@@ -1687,7 +1687,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2027979757}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.16386777
+  m_Size: 0.14860833
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1742,7 +1742,7 @@ GameObject:
   - component: {fileID: 1138381107}
   - component: {fileID: 1138381106}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1764,8 +1764,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -9516}
-  m_SizeDelta: {x: 0, y: 1376.6353}
+  m_AnchoredPosition: {x: 0, y: -10586}
+  m_SizeDelta: {x: 0, y: 1561.7466}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1138381106
 MonoBehaviour:
@@ -1906,6 +1906,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149135547}
   m_CullTransparentMesh: 0
+--- !u!1 &1179840808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179840809}
+  - component: {fileID: 1179840810}
+  m_Layer: 5
+  m_Name: Metal Song
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1179840809
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179840808}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1938560874}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &1179840810
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179840808}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d8840db11a845364e8bfc5ebc7fadb41, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1183513840
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,7 +2241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3810}
+  m_AnchoredPosition: {x: 0, y: -4880}
   m_SizeDelta: {x: -20, y: 2049.2935}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1344421238
@@ -2229,7 +2361,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -6590}
+  m_AnchoredPosition: {x: 0, y: -7660}
   m_SizeDelta: {x: -20, y: 4346.748}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1470730095
@@ -2503,7 +2635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -188.6}
+  m_AnchoredPosition: {x: 0, y: -188.6001}
   m_SizeDelta: {x: 0, y: -348.6001}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1658956627
@@ -2750,7 +2882,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.00036621094}
-  m_SizeDelta: {x: -20, y: 3588.5308}
+  m_SizeDelta: {x: -20, y: 3714.7505}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1718122308
 MonoBehaviour:
@@ -2785,23 +2917,31 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "<size=80>What happened after the nave dissapeared?</size>\n\n<b><size=60>The
-    years after the storm: why was the nave not restored?</size></b>\r\n\r\nDespite
-    being the symbol of Utrecht, no significant efforts were made to rebuild the
-    cathedral after the storm. The city council and the cathedral\u2019s chapter
-    would have been responsible for such a reconstruction, but very little action
-    was taken in the months and years after the catastrophe. [3]\r\n\r\n<b>The storm
-    could not have come at a worse moment financially.</b>\r\n\r\nUtrecht's funds
-    were extremely low at this time. The city was still greatly in debt to the French,
-    who had occupied the Netherlands for a year in 1672-3.\r\n\r\n<b>Money to completely
-    rebuild the nave was not available.</b>\r\n\r\nStill, the city council pushed
-    for at least a provisional construction of wooden walls and a roof to close off
-    the remainder of the church to make it useable as a place of worship again.\r\n\r\nThe
-    situation was so bad, that the natural stones from the former nave had to be
-    sold in order to fund the repairs, which ended up taking over three years.\r\n\r\n<b>For
-    three long years the church services were held half in the open air.</b>\r\n\r\nThe
-    chapter's main concern was the preservation of what was left of the church. The
-    ruins outside, however, were left untouched."
+  m_Text: "<size=80>What happened after the nave dissapeared?</size>\n\nThe storm
+    transformed the city of Utrecht into a wasteland. The streets were filled with
+    debris, bricks and roof tiles. The city's guilds were required to deliver 27
+    men each to clean up the worst of the mess, while local convicts were also tasked
+    to remove the loose rubble. [1] [2]\r\n\r\n<b>But what happened to the Dom and
+    its demolished nave?</b>\r\n\r\nBeing the largest and most important house of
+    worship in Utrecht, the ruins of the Dom's nave must have been one of the more
+    dramatic and saddening sights in the city. So what happened after the storm?
+    And why was the nave never rebuilt?\n\n\n<b><size=60>The years after the storm:
+    why was the nave not restored?</size></b>\r\n\r\nDespite being the symbol of
+    Utrecht, no significant efforts were made to rebuild the cathedral after the
+    storm. The city council and the cathedral\u2019s chapter would have been responsible
+    for such a reconstruction, but very little action was taken in the months and
+    years after the catastrophe. [3]\r\n\r\n<b>The storm could not have come at a
+    worse moment financially.</b>\r\n\r\nUtrecht's funds were extremely low at this
+    time. The city was still greatly in debt to the French, who had occupied the
+    Netherlands for a year in 1672-3.\r\n\r\n<b>Money to completely rebuild the nave
+    was not available.</b>\r\n\r\nStill, the city council pushed for at least a provisional
+    construction of wooden walls and a roof to close off the remainder of the church
+    to make it useable as a place of worship again.\r\n\r\nThe situation was so bad,
+    that the natural stones from the former nave had to be sold in order to fund
+    the repairs, which ended up taking over three years.\r\n\r\n<b>For three long
+    years the church services were held half in the open air.</b>\r\n\r\nThe chapter's
+    main concern was the preservation of what was left of the church. The ruins outside,
+    however, were left untouched."
 --- !u!222 &1718122309
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2851,7 +2991,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 11054.034}
+  m_SizeDelta: {x: 0, y: 12189.087}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1745522489
 GameObject:
@@ -3065,6 +3205,7 @@ RectTransform:
   - {fileID: 158311006}
   - {fileID: 59518160}
   - {fileID: 1586549896}
+  - {fileID: 1179840809}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
