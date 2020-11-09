@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Story 1.unity
     guid: 8a22ffb6d0a18d946a44daf57dd46423
   - enabled: 1
+    path: Assets/Scenes/Story 1 - Dutch.unity
+    guid: 6ad12f7e64c877b468632685e7f98837
+  - enabled: 1
     path: Assets/Scenes/Story 2.unity
     guid: eee06f39edb8f904f88015837cce25d1
   - enabled: 1
